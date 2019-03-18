@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/b612/Desktop/JavaDataStructure/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/b612/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/b612/Desktop/JavaDataStructure/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/b612/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/b612/Desktop/JavaDataStructure/app/.externalNativeBuild/cmake/debug/arm64-v8a --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/b612/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/b612/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/b612/Desktop/JavaDataStructure/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/b612/Desktop/JavaDataStructure/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "/Users/b612/Desktop/JavaDataStructure/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "5865850653538850253"
+		}
+	},
+	"toolchains" : 
+	{
+		"5865850653538850253" : 
+		{
+			"cCompilerExecutable" : "/Users/b612/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/b612/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
