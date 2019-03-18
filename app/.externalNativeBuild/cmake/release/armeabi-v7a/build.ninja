@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/b612/Desktop/JavaDataStructure/app/.externalNativeBuild/cmake/release/armeabi-v7a && /Users/b612/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/b612/Desktop/Repertory/JavaDataStructure/app/.externalNativeBuild/cmake/release/armeabi-v7a && /Users/b612/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -43,7 +43,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/b612/Desktop/JavaDataStructure/app/.externalNativeBuild/cmake/release/armeabi-v7a && /Users/b612/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -H/Users/b612/Desktop/JavaDataStructure/app -B/Users/b612/Desktop/JavaDataStructure/app/.externalNativeBuild/cmake/release/armeabi-v7a
+  COMMAND = cd /Users/b612/Desktop/Repertory/JavaDataStructure/app/.externalNativeBuild/cmake/release/armeabi-v7a && /Users/b612/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -H/Users/b612/Desktop/Repertory/JavaDataStructure/app -B/Users/b612/Desktop/Repertory/JavaDataStructure/app/.externalNativeBuild/cmake/release/armeabi-v7a
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -55,7 +55,7 @@ build CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__nat
   DEFINES = -Dnative_lib_EXPORTS
   DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -Oz -DNDEBUG  -fPIC
-  IN_ABS = /Users/b612/Desktop/JavaDataStructure/app/src/main/cpp/native-lib.cpp
+  IN_ABS = /Users/b612/Desktop/Repertory/JavaDataStructure/app/src/main/cpp/native-lib.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
 

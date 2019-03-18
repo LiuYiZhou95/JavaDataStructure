@@ -1,9 +1,9 @@
 
 {
-	"buildFiles" : [ "/Users/b612/Desktop/JavaDataStructure/app/CMakeLists.txt" ],
+	"buildFiles" : [ "/Users/b612/Desktop/Repertory/JavaDataStructure/app/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"/Users/b612/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/b612/Desktop/JavaDataStructure/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+		"/Users/b612/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/b612/Desktop/Repertory/JavaDataStructure/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -12,18 +12,18 @@
 		{
 			"abi" : "armeabi-v7a",
 			"artifactName" : "native-lib",
-			"buildCommand" : "/Users/b612/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/b612/Desktop/JavaDataStructure/app/.externalNativeBuild/cmake/release/armeabi-v7a --target native-lib",
+			"buildCommand" : "/Users/b612/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/b612/Desktop/Repertory/JavaDataStructure/app/.externalNativeBuild/cmake/release/armeabi-v7a --target native-lib",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
 					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/b612/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/b612/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -Oz -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/b612/Desktop/JavaDataStructure/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "/Users/b612/Desktop/JavaDataStructure/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+					"src" : "/Users/b612/Desktop/Repertory/JavaDataStructure/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/b612/Desktop/Repertory/JavaDataStructure/app/.externalNativeBuild/cmake/release/armeabi-v7a"
 				}
 			],
-			"output" : "/Users/b612/Desktop/JavaDataStructure/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"output" : "/Users/b612/Desktop/Repertory/JavaDataStructure/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
 			"toolchain" : "5865850653538850253"
 		}
 	},

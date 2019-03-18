@@ -1,4 +1,4 @@
-# Install script for directory: /Users/b612/Desktop/JavaDataStructure/app
+# Install script for directory: /Users/b612/Desktop/Repertory/JavaDataStructure/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/b612/Desktop/JavaDataStructure/app/.externalNativeBuild/cmake/release/x86/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/b612/Desktop/Repertory/JavaDataStructure/app/.externalNativeBuild/cmake/release/x86/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
