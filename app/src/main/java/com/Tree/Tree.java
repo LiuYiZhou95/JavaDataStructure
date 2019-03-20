@@ -8,7 +8,8 @@ import java.util.List;
  * @author action.zhou
  * @version v1.0
  * @date Created in 2019/3/13
- * @description 树的定义和实现
+ * @description 树的定义和实现，目前问题比较大，只是实现了树的基本特性，但先序遍历、后序遍历也可以用，这是不正确的
+  *
  */
 
 public class Tree {
