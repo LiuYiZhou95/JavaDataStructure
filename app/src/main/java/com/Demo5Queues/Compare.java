@@ -1,4 +1,4 @@
-package com.Queues;
+package com.Demo5Queues;
 
 import java.util.Random;
 

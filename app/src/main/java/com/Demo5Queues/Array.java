@@ -1,4 +1,4 @@
-package com.Queues;
+package com.Demo5Queues;
 /**
  * @author action.zhou
  * @version v1.0

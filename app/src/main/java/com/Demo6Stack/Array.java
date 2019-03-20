@@ -1,4 +1,4 @@
-package com.Stack;
+package com.Demo6Stack;
 /**
  * @author action.zhou
  * @version v1.0
